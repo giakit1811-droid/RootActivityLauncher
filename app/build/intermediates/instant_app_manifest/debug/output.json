@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "localhost.derekziemba.activitylauncher",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 100,
+        "versionName": "2.0",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "localhost.derekziemba.activitylauncher",
+        "split": "",
+        "minSdkVersion": "14"
+      }
+    }
+  ]
+}

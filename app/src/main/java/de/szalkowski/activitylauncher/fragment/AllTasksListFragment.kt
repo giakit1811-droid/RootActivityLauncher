@@ -5,6 +5,8 @@ import android.view.*
 import android.view.ContextMenu.ContextMenuInfo
 import android.widget.ExpandableListView
 import android.widget.ExpandableListView.ExpandableListContextMenuInfo
+import android.widget.Filter
+import android.widget.Filterable
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
@@ -18,7 +20,7 @@ import de.szalkowski.activitylauncher.utils.LauncherIconCreator.createLauncherIc
 import de.szalkowski.activitylauncher.utils.RootActivityLauncher.launchActivity
 
 class AllTasksListFragment : Fragment(),
-    AsyncProvider.Listener<AllTasksListAdapter?> {
+    AsyncProvider.Listener<AllTasksListAdapter?>, Filterable {
     private var list: ExpandableListView? = null
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -154,5 +156,11 @@ class AllTasksListFragment : Fragment(),
         } catch (e: Exception) {
             Toast.makeText(this.activity, R.string.error_tasks, Toast.LENGTH_SHORT).show()
         }
+    }
+
+    override fun getFilter(): Filter? {
+        val adapter =
+            list!!.expandableListAdapter as AllTasksListAdapter
+        return adapter.filter
     }
 }

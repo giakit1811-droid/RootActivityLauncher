@@ -4,6 +4,7 @@ import android.content.ComponentName
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import java.util.*
+import kotlin.jvm.Throws
 
 class PackageManagerCache private constructor(protected var pm: PackageManager) {
     private val packageInfos: MutableMap<String, MyPackageInfo?>

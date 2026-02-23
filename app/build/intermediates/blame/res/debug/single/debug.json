@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_frament_all_list.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/frament_all_list.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_activity_list_item.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/activity_list_item.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_icon_picker.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/icon_picker.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_dialog_edit_activity.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/dialog_edit_activity.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_all_activities_group_item.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/all_activities_group_item.xml"
+    },
+    {
+        "merged": "/home/tim/Development/RootActivityLauncher/app/build/intermediates/res/merged/debug/layout_all_activities_child_item.xml.flat",
+        "source": "/home/tim/Development/RootActivityLauncher/app/src/main/res/layout/all_activities_child_item.xml"
+    }
+]
