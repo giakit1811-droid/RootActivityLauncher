@@ -1,3 +1,8 @@
+> [!NOTE]
+> This fork is not updated anymore. I recommend you use this project instead: https://github.com/sdex/ActivityManager
+
+
+
 # RootActivityLauncher
 Launch all hidden, restricted and unexported activities in Android via Root
 
